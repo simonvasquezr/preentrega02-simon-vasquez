@@ -1,0 +1,204 @@
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* estilos generales */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+   }
+
+/* estilos header */
+header{
+    background-color: rgb(178, 217, 247);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+header h1{
+    font-weight: bold;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;  
+    gap: 60px;  
+}
+
+header nav ul li{
+    background-color: grey ;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(178, 217, 247);
+    padding: 20px;
+    text-align: center;
+}
+
+/* ESTILOS INDEX */
+
+/* estilos main home*/
+
+.main-principal{
+    height: 700px;
+    background-image: url("../img/img-index.jpeg");
+    background-size: cover;
+}
+
+.quote-principal{
+    color: aliceblue;
+    text-align: right;
+    padding: 30px; 
+    padding-top: 400px;   
+}
+
+
+/* ESTILOS AMBIENTE SONORO */
+
+/* estilos main ambiente */
+
+.main-ambiente{
+    background-color: rgb(206, 205, 205);
+}
+
+.contenido-ambiente{
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.ambiente-uno{
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.ambiente-dos{
+    margin: 20px;
+    padding: 20px;
+}
+
+/* ESTILOS BIO */
+
+/* estilos main bio */
+
+.main-bio{
+    background-color: rgb(206, 205, 205);
+}
+
+.titulo-bio{
+    padding: 10px;
+}
+
+.contenido-bio{
+    display: inline-block;   
+
+}
+
+.retrato-bio{
+
+}
+
+.bio-uno{
+    margin: 10px; 
+      
+}
+
+.bio-dos{
+    margin: 10px;
+}
+
+
+/* ESTILOS TEXTOS */
+
+/* estilos main textos */
+
+.main-textos{background-color: rgb(206, 205, 205);    
+}
+
+.main-textos-uno{
+    padding: 20px;
+}
+.main-textos-uno h3{
+    padding-bottom: 10px;
+}
+
+.main-textos-dos{
+    padding: 20px;
+}
+.main-textos-dos h3{
+    padding-bottom: 10px;
+}
+
+.main-textos-tres{
+    padding: 20px;
+}
+.main-textos-tres h3{
+    padding-bottom: 10px;
+}
+
+.main-textos-cuatro{
+    padding: 20px;
+}
+.main-textos-cuatro h3{
+    padding-bottom: 10px;
+}
+
+.main-textos-cinco{
+    padding: 20px;
+}
+.main-textos-cinco h3{
+    padding-bottom: 10px;
+}
+
+.main-textos-seis{
+    padding: 20px;
+}
+.main-textos-seis h3{
+    padding-bottom: 10px;
+}
+
+
+/* ESTILOS CONTACTO */
+
+/* estilos main contacto */
+
+.main-contacto{
+    background-color:  rgb(206, 205, 205);
+}
+
+.main-contacto h3{
+    padding: 30px;
+}
+
+.formulario-contacto{
+    padding: 50px;
+}
+
+.nombre-contacto{
+    padding: 10px;
+}
+
+.email-contacto{
+    padding: 10px;
+}
+
+.asunto-contacto{
+    padding: 10px;
+}
+
+.mensaje-contacto{
+    padding: 10px;
+}
+
+.botones-contacto{
+    padding: 25px;
+    }
